@@ -1,0 +1,17 @@
+{
+  "name": "English_learning",
+  "version": "1.0.0",
+  "description": "english learning repo",
+  "main": "index.js",
+  "author": "changlin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
