@@ -27,6 +27,9 @@ async function getConfig(path) {
     markdown: {
       theme: 'material-palenight',
       lineNumbers: false,
+      config: md => {
+        md.use(require('markdown-it-footnote'))
+      },
     },
     themeConfig: {
       sidebar: {
